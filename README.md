@@ -131,8 +131,10 @@ Python
 turtlesim
 
 ## 👤 Author
-name: Chirag Gujrathi
-username: NOAA-dev
-Second-year engineering undergraduate at COEP PUNE INDIA exploring robotics, ROS 2, and autonomous systems through hands-on projects.
 
-# ⭐ If you find this project interesting, feel free to star the repository!
+Chirag Gujrathi
+GitHub: NOAA-dev
+
+Second-year engineering undergraduate at COEP Pune, India, exploring robotics, ROS 2, and autonomous systems through hands-on projects.
+
+## ⭐ If you find this project interesting, feel free to star the repository!
