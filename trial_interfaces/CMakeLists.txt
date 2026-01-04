@@ -10,12 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME} 
-  "msg/HardwareStatus.msg"
-  "msg/LedPanelState.msg"
   "msg/AliveStatus.msg"
-  "srv/CalculateRectangleArea.srv"
-  "srv/LedControl.srv"
-  "srv/TurtleChaser.srv"
   "srv/Killer.srv"
 )
 
