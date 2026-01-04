@@ -100,7 +100,7 @@ Turtlesim window showing pursuit and elimination
 
 Launch logs confirming controller, manager, and turtlesim nodes running together
 
-![To launch](media/launch.png)
+![To launch](media/launch_file.png)
 ![AfterLaunch](media/after_launch.png)
 
 🧠 Key Learnings
