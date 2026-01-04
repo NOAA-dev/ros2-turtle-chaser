@@ -86,6 +86,8 @@ source install/setup.bash
 ros2 launch program_bringup turtle_chaser.launch.xml
 
 ```
+![To launch](media/launch_file.png)
+
 This launches:
 
 turtlesim_node
@@ -100,51 +102,37 @@ Turtlesim window showing pursuit and elimination
 
 Launch logs confirming controller, manager, and turtlesim nodes running together
 
-![To launch](media/launch_file.png)
 ![AfterLaunch](media/after_launch.png)
 
-🧠 Key Learnings
 
+## 🧠 Key Learnings
 Designing multi-node ROS 2 systems
-
 Using custom messages and services correctly
-
 Handling asynchronous service calls safely
-
 Debugging race conditions and state desynchronization
-
 Writing smoother control logic for dynamic targets
-
 Building launch files for clean system startup
 
-📈 Skill Level
-
+## 📈 Skill Level
 This project goes beyond basic ROS tutorials and reflects:
-
 System-level thinking
-
 Runtime debugging ability
-
 Practical robotics control concepts
 
-🔮 Future Improvements
-
+## 🔮 Future Improvements
 Support for multiple controller turtles
-
 Dynamic parameter tuning
-
 Visualization of target selection
-
 Porting logic to real robots or Gazebo simulation
 
-📎 Tech Stack
-
+## 📎 Tech Stack
 ROS 2 Jazzy
-
 Python
-
 turtlesim
 
-👤 Author
-
+## 👤 Author
+name: Chirag Gujrathi
+username: NOAA-dev
 Second-year engineering undergraduate at COEP PUNE INDIA exploring robotics, ROS 2, and autonomous systems through hands-on projects.
+
+# ⭐ If you find this project interesting, feel free to star the repository!
