@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="turtle_chaser" exec="turtle_controller" >
+        <param name="P_V" value="0.2"/>
+        <param name="P_A" value="0.6"/>
+        <param name="timer" value="0.1"/>
+    </node>
+    <node pkg="turtle_chaser" exec="God"/>
+    <node pkg="turtlesim" exec="turtlesim_node"/>
+</launch>

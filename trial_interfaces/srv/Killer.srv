@@ -1,0 +1,4 @@
+bool kill
+string kill_name
+---
+string debbug
