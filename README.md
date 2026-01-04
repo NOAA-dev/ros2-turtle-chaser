@@ -23,15 +23,25 @@ The controller turtle rotates toward the target, moves smoothly, and sends a kil
 ### Packages
 
 src/
+
 ├── trial_interfaces/
+
 │ ├── msg/AliveStatus.msg
+
 │ ├── srv/Killer.srv
+
 │
+
 ├── turtle_chaser/
+
 │ ├── Turtle_controller.py
+
 │ ├── turtle_God.py
+
 │
+
 └── program_bringup/
+
 └── launch/turtle_chaser.launch.xml
 
 
@@ -90,7 +100,8 @@ Turtlesim window showing pursuit and elimination
 
 Launch logs confirming controller, manager, and turtlesim nodes running together
 
-(You can add screenshots or a GIF in a /media folder for better visualization.)
+![launch](media/demo.png)
+![after_launch](media/demo2.png)
 
 🧠 Key Learnings
 
